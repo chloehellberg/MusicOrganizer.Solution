@@ -1,0 +1,14 @@
+@using MusicOrganizer.Models
+
+@{
+  Layout = "_Layout";
+}
+
+<ul>
+  @foreach (Record record in Model)
+  {
+    <li>@record.Title</li>
+  }
+</ul>
+
+<a href="/">Go home</a>
