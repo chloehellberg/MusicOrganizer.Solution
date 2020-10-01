@@ -49,5 +49,6 @@ namespace MusicOrganizer.Controllers
       model.Add("records", artistRecords);
       return View("Show", model);
     }
+
   }
 }

@@ -1,0 +1,11 @@
+@using MusicOrganizer.Models;
+
+<ul>
+  @foreach (Artist artist in Model)
+  {
+    <li><a href="/artists/@artist.Id">@artist.Name</a></li>
+  }
+</ul>
+
+<a href="/search_by_artist/new">Search again</a><br>
+<a href="/">Home</a>
